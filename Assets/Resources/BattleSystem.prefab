@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3897569808663096796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3897569808663096797}
+  - component: {fileID: 3897569808663096798}
+  - component: {fileID: 3897569808663096799}
+  m_Layer: 0
+  m_Name: BattleSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3897569808663096797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897569808663096796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6306248, y: -0.887602, z: -7635.951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3897569808663096798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897569808663096796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6ecf6e1acc94c3585abf7d8d6517eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMode: 
+  camera: {fileID: 0}
+  Board: {fileID: 7880288890935852873, guid: 832a3323ec2d74d59815713bb40a1bf0, type: 3}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  canvas: {fileID: 0}
+  gameStartFlag: 0
+  leftHandM: {fileID: 0}
+  rightHandM: {fileID: 0}
+  sepPos1: {x: 0, y: 0}
+  sepPos2: {x: 0, y: 0}
+  btn11: {fileID: 6063780470907469724, guid: b0ed9acbe05c84647959fd2b5c77d8ce, type: 3}
+  btn20: {fileID: 1577125083521070488, guid: e0e7e2c59e4694d4db740bbe2c619333, type: 3}
+  btn21: {fileID: 3940168109773597580, guid: 76cfab997e395491a9e99d3a755ad64d, type: 3}
+  btn30: {fileID: 6688306003689424061, guid: ff6b9fad659d048fcac5f701cef26cc7, type: 3}
+  btn31: {fileID: 5281633754627924886, guid: 4e30a24de0c564cccb7d008a7fe55cd0, type: 3}
+  btn22: {fileID: 3687260649562224297, guid: 5466e76a346074a0cb1b181b64c94817, type: 3}
+  btn40: {fileID: 1887038105125916312, guid: b1d4835dffc424cc2a766fe1b268318c, type: 3}
+  btn41: {fileID: 8980500835087457739, guid: 43bf6fafb547e47bf9fc8196d6af2730, type: 3}
+  btn32: {fileID: 8143698120046473341, guid: bbe1ebbb16bd14500b20b9adb5d1596a, type: 3}
+  btn42: {fileID: 6910014830784125467, guid: b6ba139b7db28403784034741a0c25ec, type: 3}
+  btn33: {fileID: 5156070256648745049, guid: 11abdcdf788764b20baaaea056e8d713, type: 3}
+  btnRotation: {x: 0, y: 0, z: 0, w: 0}
+  sumFinger: 0
+  turnFlag: 0
+  text: {fileID: 487165185958658115, guid: ef753a459ea854248ba0ee9f82804461, type: 3}
+  desk: {fileID: 2159244752137018949, guid: 4c8a0da8de6d646dface548ebb0a58c9, type: 3}
+  timeText: {fileID: 7179550480686554981, guid: 0ecafcd75b3d44a31b3e603cc5f8770c,
+    type: 3}
+  restTime: 0
+  textPos1: {x: 0, y: 480}
+  textPos2: {x: 0, y: -480}
+  timeTextPos1: {x: 0, y: 410}
+  timeTextPos2: {x: 0, y: -410}
+  boardPos1: {x: 0, y: 3.5}
+  boardPos2: {x: 0, y: -3.5}
+  deskPos1: {x: 0, y: -4}
+  deskPos2: {x: 0, y: 4}
+--- !u!114 &3897569808663096799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897569808663096796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
